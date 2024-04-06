@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Content Detector</title>
+</head>
+
+<body style="font-family: Arial; background-color: lightyellow; text-align: center;">
+    <div class="container" style="max-width: 800px; margin: 0 auto; padding: 20px;">
+        <div class="centered">
+            <h1 style="font-size: 36px; color: black;">AI Content Detector</h1>
+            <p style="font-size: 18px; color: black;">Paste in text and click on the <b>Analyze Text</b> button to receive model prediction.</p>
+            <form name="input" method="POST" style="text-align: center;">
+                <textarea name="input" placeholder="Paste in text to analyze." rows="30" cols="130" style="width: 100%; box-sizing: border-box; padding: 10px; margin-bottom: 10px;" required></textarea>
+                <br>
+                <br>
+                <button style="width: 200px; height: 50px; font-size: 25px; font-weight: bold;">Analyze Text</button>
+            </form>
+            <p style="font-size: 18px; color: black;">{{ output }}</p>
+        </div>
+    </div>
+</body>
+</html>
