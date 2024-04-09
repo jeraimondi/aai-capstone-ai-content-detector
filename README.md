@@ -7,12 +7,12 @@ the University of San Diego (USD).
 
 ## Flask Web Application
 
-https://ai-content-detector.azurewebsites.net/
+https://ai-content-detector.azurewebsites.net
 
 ***Note** - This web app will only be available for up to 30 days following project completion.
 
 <p align='center'>
-<img src='screenshots/flask_app_screenshot.png' />
+<a href='https://ai-content-detector.azurewebsites.net'><img src='screenshots/flask_app_screenshot.png' alt='Flask app screenshot.' style='width:600px; height:540px;' /></a>
 </p>
 
 ## Installation
