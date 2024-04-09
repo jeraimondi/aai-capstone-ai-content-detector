@@ -99,9 +99,9 @@ Classes of the dataset include:
 
 ## Project Repository File/Folder Structure
 
-* **LICENSE**: Repository license
+* `LICENSE`: Repository license
 
-* **README.md**: Project documentation in Markdown
+* `README.md`: Project documentation in Markdown
 
 * **documents/**: Directory containing document files
   * `AAI-590 Human versus AI Distinguishment - Final Report.docx`: Final report in DOCX format
