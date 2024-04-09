@@ -9,7 +9,7 @@ the University of San Diego (USD).
 
 https://ai-content-detector.azurewebsites.net
 
-***Note** - This web app will only be available for up to 30 days following project completion.
+* **Note** - This web app will only be available for up to 30 days following project completion.
 
 <p align='center'>
 <a href='https://ai-content-detector.azurewebsites.net'><img src='screenshots/flask_app_screenshot.png' alt='Flask app screenshot.' style='width:600px; height:540px;' /></a>
@@ -90,12 +90,46 @@ Classes of the dataset include:
 
 [Kaggle - Detect- AI Generated VS Student Generated Text](https://www.kaggle.com/datasets/prajwaldongre/llm-detect-ai-generated-vs-student-generated-text)
 
-***Note** - This dataset was only used for additional inference testing, as it provided more text diversity (i.e., variable 
+* **Note** - This dataset was only used for additional inference testing, as it provided more text diversity (i.e., variable 
 length, writing styles).
 
 Classes of the dataset include:
 * student - Human
 * ai - AI
+
+## Project Repository File/Folder Structure
+
+* **LICENSE**: Repository license
+
+* **README.md**: Project documentation in Markdown
+
+* **documents/**: Directory containing document files
+  * `AAI-590 Human versus AI Distinguishment - Final Report.docx`: Final report in DOCX format
+  * `AAI-590 Human versus AI Distinguishment - Final Report.pdf`: Final report in PDF format
+
+* **notebooks/**: Directory containing notebooks
+  * `Baseline_Model.ipynb`: Development for baseline model
+  * `Baseline_Model_EDA.ipynb`: EDA for baseline model
+  * `Custom_Transformer.ipynb`: Development for custom transformer model
+  * `Data_Cleaning_EDA_1.ipynb`: Initial data cleaning and EDA
+  * `Data_Cleaning_EDA_2.ipynb`: Additional data cleaning and EDA, focusing on feature engineering
+  * `Pretrained_Model.ipynb`: Development for pretrained DistilBERT model
+  * **experimentation/**: Directory for preliminary or experimental notebooks
+    * `Ensemble_Model.ipynb`: Development for ensemble model (experimental)
+
+* **screenshots/**: Directory containing screenshots
+  * `flask_app_screenshot.png`: Screenshot of Flask application
+
+* **webapp/**: Directory containing files for web application
+  * `.dockerignore`: Docker ignore file to exclude unwanted files during image build
+  * `app.py`: Python application code
+  * `customtransformer.py`: Module with classes and functions to load and return model
+  * `Dockerfile`: Docker configuration file for containerizing web app
+  * `gunicorn.conf.py`: Configuration file for Gunicorn, a WSGI HTTP server
+  * `requirements.txt`: File listing required packages for web app
+  * `vocab.pkl`: Custom vocabulary file used with custom transformer model
+  * **templates/**: Directory containing website HTML templates
+    * `website.html`: HTML template for web app
 
 ## License
 
