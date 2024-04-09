@@ -1,3 +1,6 @@
+# NOTE* - Code retrieved and modified from:
+# https://towardsdatascience.com/building-a-machine-learning-web-application-using-flask-29fa9ea11dac
+
 from flask import Flask, request, render_template # web framework
 from customtransformer import custom_model, device, vocab, tokenizer
 from customtransformer import predict_with_transformer
