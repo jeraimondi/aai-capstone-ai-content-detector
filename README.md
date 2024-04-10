@@ -3,7 +3,7 @@
 This project is a part of the AAI-590 Capstone Project course in the Applied Artificial Intelligence Program at 
 the University of San Diego (USD).
 
-### <b>Project Status: In Progress (Planned Completion: 4/15/2024)</b>
+### <b>Project Status: Completed 4/15/2024</b>
 
 ## Flask Web Application
 
@@ -11,9 +11,27 @@ https://ai-content-detector.azurewebsites.net
 
 * **Note** - This web app will only be available for up to 30 days following project completion.
 
-<p align='center'>
-<a href='https://ai-content-detector.azurewebsites.net'><img src='screenshots/flask_app_screenshot.png' alt='Flask app screenshot.' style='width:600px; height:540px;' /></a>
+<p align='left'>
+<a href='https://ai-content-detector.azurewebsites.net'><img src='screenshots/flask_app_screenshot.png' alt='Flask app screenshot.' style='width:450px; height:405px;' /></a>
 </p>
+
+## Presentation
+
+<p align='left'>
+<a href='https://youtu.be/7oCtnlkGJmo'><img src='screenshots/presentation_title_slide.png' alt='Presentation title slide.' style='width:480px; height:270px;' /></a>
+</p>
+
+* [Presented by Jason Raimondi](https://youtu.be/7oCtnlkGJmo?t=00m00s)
+  * Pesentation Overview
+  * Problem Statement
+  * Live Web App Demo
+* [Presented by Jeremy Cryer](https://youtu.be/7oCtnlkGJmo?t=05m23s)
+  * Datasets and Prep
+  * Methodology Approaches
+* [Presented by Shane Schipper](https://youtu.be/7oCtnlkGJmo?t=09m51s)
+  * Training and Evaluation
+  * Selection and Results
+  * Production Readiness
 
 ## Installation
 
@@ -56,6 +74,7 @@ human versus AI-generated text).
 
 * Python
 * PyTorch
+* DistilBERT
 * Flask
 * Gunicorn
 * Azure
@@ -106,6 +125,8 @@ Classes of the dataset include:
 * **documents/**: Directory containing document files
   * `AAI-590 Human versus AI Distinguishment - Final Report.docx`: Final report in DOCX format
   * `AAI-590 Human versus AI Distinguishment - Final Report.pdf`: Final report in PDF format
+  * `AAI-590 Human versus AI Distinguishment - Presentation.pdf`: Final presentation in PDF format
+  * `AAI-590 Human versus AI Distinguishment - Presentation.pptx`: Final presentation in PPTX format
 
 * **notebooks/**: Directory containing notebooks
   * `Baseline_Model.ipynb`: Development for baseline model
@@ -119,6 +140,7 @@ Classes of the dataset include:
 
 * **screenshots/**: Directory containing screenshots
   * `flask_app_screenshot.png`: Screenshot of Flask application
+  * `presentation_title_slide.png`: Screenshot of presentation title slide
 
 * **webapp/**: Directory containing files for web application
   * `.dockerignore`: Docker ignore file to exclude unwanted files during image build
